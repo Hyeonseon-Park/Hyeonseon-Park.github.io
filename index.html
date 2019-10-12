@@ -184,6 +184,54 @@
 		background-color:#F4D03F;
 	}
 	
+	#movingCat {
+		position: absolute;
+		left:20%; 
+		top:20%;
+		-webkit-animation-name: walking;
+		-webkit-animation-duration: 5s;
+		-webkit-animation-iteration-count:10;
+		animation-name: walking;
+		animation-duration: 5s;
+		animation-iteration-count:10;
+	}
+	
+	@-webkit-keyframes walking {
+		from {
+			left:20%;
+			top:20%;
+			-webkit-transform: rotateY(0deg);
+		}
+		25% {
+			left: 88%;
+			top: 20%;
+			-webkit-transform: rotateY(0deg);
+			
+		}
+		40%{
+			left:84%;
+			top:20%;
+			-webkit-transform: rotateY(0deg);
+			-webkit-animation-timing-function: ease-in-out;
+		}
+		60%{
+			left:84%;
+			top:20%;
+			-webkit-transform: rotateY(150deg);
+		}
+		
+		75%{
+			-webkit-transform: rotateY(150deg);
+			left:20%;
+			top:20%;
+		}
+		to {
+			-webkit-transform: rotateY(0deg);
+			left:20%;
+			top:20%;
+		}
+	}
+	
 	
 	</style>
 	
@@ -194,7 +242,10 @@
 		<a id="top"></a>
 		<h1>고양이에 대한 모든 것</h1>
 		<p id="my_name">박현선</p>
+		<img id="movingCat" src="cat2.png" width="40" height="40"></img>
 	</header>
+	
+	
 	
 	<nav>
 		<ul>
@@ -228,7 +279,7 @@
 		<br/>
 		
 		<div id="audio">
-			<h3><img src="cat.png" width="20" hight="20"></img> <nbsp/>고양이의 울음소리 </h3>
+			<h3><img src="cat.png" width="20" height="20"></img> <nbsp/>고양이의 울음소리 </h3>
 			<audio src="https://upload.wikimedia.org/wikipedia/commons/5/53/Felis_silvestris_catus_meows.ogg" 
 			autoplay controls></audio>
 		</div>
@@ -239,7 +290,7 @@
 		<div id="species">
 		
 		<br/>
-			<h3><img src="cat.png" width="20" hight="20"></img> <nbsp/>고양이의 품종</h3>
+			<h3><img src="cat.png" width="20" height="20"></img> <nbsp/>고양이의 품종</h3>
 			<br/>
 			<ul>
 				<li><a href="https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B2%8C" title="서벌">서벌</a></li>
@@ -266,7 +317,7 @@
 		<br/>
 		
 		<div id="growth">
-			<h3><img src="cat.png" width="20" hight="20"></img> <nbsp/>고양이의 성장과정</h3>
+			<h3><img src="cat.png" width="20" height="20"></img> <nbsp/>고양이의 성장과정</h3>
 			<table border="1">
 				<tr>
 					<td style="width: 10%">시기</td>
@@ -318,13 +369,13 @@
 		<br/>
 		
 		<div id="picture">
-			<h3><img src="cat.png" width="20" hight="20"></img> <nbsp/>귀여운 고양이의 사진</h3>
+			<h3><img src="cat.png" width="20" height="20"></img> <nbsp/>귀여운 고양이의 사진</h3>
 			<br/>
 			<a href="https://post-phinf.pstatic.net/MjAxNzA5MjVfMTY4/MDAxNTA2Mjk5NDg5NDM4.nILv9O2nGuV3eadCaFXlp8Y9_Gwc3iXzhuLjul0kSNEg.YfL5_PKZDubMRx0Z9GvnpoxlUOrXdvUEJpJdZ5TmmO4g.JPEG/1-2.JPG?type=w1200">
-				<img src="https://post-phinf.pstatic.net/MjAxNzA5MjVfMTY4/MDAxNTA2Mjk5NDg5NDM4.nILv9O2nGuV3eadCaFXlp8Y9_Gwc3iXzhuLjul0kSNEg.YfL5_PKZDubMRx0Z9GvnpoxlUOrXdvUEJpJdZ5TmmO4g.JPEG/1-2.JPG?type=w1200" alt="cat" width="640" hight="420"></img>
+				<img src="https://post-phinf.pstatic.net/MjAxNzA5MjVfMTY4/MDAxNTA2Mjk5NDg5NDM4.nILv9O2nGuV3eadCaFXlp8Y9_Gwc3iXzhuLjul0kSNEg.YfL5_PKZDubMRx0Z9GvnpoxlUOrXdvUEJpJdZ5TmmO4g.JPEG/1-2.JPG?type=w1200" alt="cat" width="640" height="420"></img>
 			</a>
 			<a href="https://post-phinf.pstatic.net/MjAxNzA5MjVfMTkg/MDAxNTA2Mjk5NDMwMDg1.ObEL8LuP2y8ZFuNCzk3x47dmClHoWHR5HIzfQW1uATcg.YOBPW777OlTdDL_VuMFqWQGhs_-vLu-FQcPaxN9lwNAg.JPEG/1-1.JPG?type=w1200">
-				<img src="https://post-phinf.pstatic.net/MjAxNzA5MjVfMTkg/MDAxNTA2Mjk5NDMwMDg1.ObEL8LuP2y8ZFuNCzk3x47dmClHoWHR5HIzfQW1uATcg.YOBPW777OlTdDL_VuMFqWQGhs_-vLu-FQcPaxN9lwNAg.JPEG/1-1.JPG?type=w1200" alt="cat" width="640" hight="420"></img>
+				<img src="https://post-phinf.pstatic.net/MjAxNzA5MjVfMTkg/MDAxNTA2Mjk5NDMwMDg1.ObEL8LuP2y8ZFuNCzk3x47dmClHoWHR5HIzfQW1uATcg.YOBPW777OlTdDL_VuMFqWQGhs_-vLu-FQcPaxN9lwNAg.JPEG/1-1.JPG?type=w1200" alt="cat" width="640" height="420"></img>
 			</a>
 			
 			<br/>
@@ -338,7 +389,7 @@
 		<br/>
 		
 		<div id="video">
-			<h3><img src="cat.png" width="20" hight="20"></img> <nbsp/>고양이의 엉뚱한 매력</h3>
+			<h3><img src="cat.png" width="20" height="20"></img> <nbsp/>고양이의 엉뚱한 매력</h3>
 			<br/>
 			<iframe width="640" height="360" src="https://www.youtube.com/embed/YvcG4IPtAAg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			<br/><br/>
