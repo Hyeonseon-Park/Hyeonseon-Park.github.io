@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>고양이는 정말 귀여워</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,700,800|Hind:400,700|Montserrat:400,500,600,700|Nanum+Gothic:400,700,800|Noto+Sans+KR:400,500,700,900|Poor+Story|Roboto+Condensed:400,700|Sunflower:300,500,700&display=swap&subset=korean" rel="stylesheet">
+
+	<style>
+	header {
+		font-family: 'Poor Story', sans-serif;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: none;
+		color: #43065C;
+		background-color: #C17BFE;
+		margin: 20px 0px 0px 0px;
+		padding: 5px;
+	}
+	#my_name {
+		text-align: right;
+		margin:0px 50px 10px 0px;
+		font-size: 20px;
+	}
+	
+	nav {
+		font-family:'Noto Sans', sans-serif;
+		font-weight: normal;
+		text-align: center;
+		color: white;
+		background-color: #F08080;
+		margin: 0px 0px 20px 0px;
+		padding: 3px;
+		
+		font-size: 16px;
+	}
+	
+	nav ul li {
+		display:inline;
+		letter-spacing: 1px;
+		padding: 3px; 
+	}
+	nav a:link, nav a:visited {
+		color: white;
+		text-decoration:none;
+	}
+	nav a:hover{
+		color: #F2F4F4;
+		font-weight:bold;
+		text-decoration:none;
+	}
+	
+	#content-first {
+		margin:1%;
+		float:left;
+		width:48%;
+		min-width: 400px;
+	}
+	#content-second {
+		font-family:'Noto Sans', sans-serif;
+		margin:1%;
+		float:left;
+		width:48%;	
+		min-width:400px;
+	}
+	#content-third {
+		font-family:'Noto Sans', sans-serif;
+		clear:both;
+		margin: 0% 5% 0% 5%;
+	}
+	#footer {
+		font-family: 'Noto Sans', sans-serif;
+		margin: 5%;
+	}
+	
+	#main_explain{
+		padding: 15px;
+	}
+	
+	h3 {
+		font-family: 'Noto Sans', sans-serif;
+		font-weight: bold;
+		font-size: 20px;
+		text-align: left;
+		margin: 10px;
+	}
+
+	#species ul {
+		display: block;
+		column-count: 4;
+	}
+	
+	#species ul a:link, table a:link, #reference a:link {
+		text-decoration: none;
+		color: #A569BD;
+	}
+	#species ul a:visited, table a:visited, #reference a:visited {
+		text-decoration: none;
+		color: #CD6155;
+	}
+	#species ul a:hover, table a:hover, #reference a:hover {
+		text-decoration: none;
+		color: #5B2C6F;
+	}
+	
+	.more {
+		font-family: 'Nanum Gothic', sans-serif;
+		font-size: 15px;
+		text-align: center;
+		color: white;
+		padding: 14px 25px;
+		text-decoration: none;
+		display: inline-block;
+		margin: 0px 0px 0px 20px;
+	}
+	.more:link, #more:visited {
+		background-color: #F08080;
+		color: white;
+	}
+	.more:hover {
+		background-color: #CD5C5C;
+		color: white;
+	}
+	
+	table, td, th {
+		border-collapse: collapse;
+		border: 1px solid #34495E;
+		text-align: center;
+		font-weight: normal;
+		padding: 20px;
+	}
+	td{
+		font-weight: bold;
+		background-color: #F5EEF8;
+	}
+	.pic {
+		padding: 0px;
+	}
+	
+	#feedback {
+		font-family: 'Nanum Gothic', sans-serif;
+		font-size: 15px;
+		text-align: center;
+		color: white;
+		padding: 14px 25px;
+		text-decoration: none;
+		display: inline-block;
+		margin: 0px 0px 0px 20px;
+	}
+	#feedback:link{
+		background-color:#AF7AC5;
+	}
+	#feedback:hover {
+		background-color:#6C3483;
+	}
+	
+	#reference {
+		text-align:right;
+	}
+	#reference p {
+		font-size:13px;
+	}
+	
+	#link_to_top {
+		margin:20px;
+		padding:2px;
+		border-radius:5px;
+		border:solid orange;
+		border-width: medium;
+		position: fixed;
+		bottom: 0px;
+		right: 0px;
+		
+		font-family: 'Barlow';
+		text-align: center;
+		text-decoration: none;
+		color: black;
+		display: inline-block;
+	}
+	
+	#to_top a:link, #to_top a:visited{
+		background-color:#F9E79F;	
+	}
+	#to_top a:hover{
+		background-color:#F4D03F;
+	}
+	
+	
+	</style>
+	
+	
+</head>
+<body>
+	<header>
+		<a id="top"></a>
+		<h1>고양이에 대한 모든 것</h1>
+		<p id="my_name">박현선</p>
+	</header>
+	
+	<nav>
+		<ul>
+			<li><a href="#content-first">main</a></li>
+			<li><a href="#content-second">울음소리</a></li>
+			<li><a href="#species">품종</a></li>
+			<li><a href="#growth">성장과정</a></li>
+			<li><a href="#picture">사진</a></li>
+			<li><a href="#video">영상</a></li>
+		</ul>
+	</nav>
+	
+	<div id = "content-first">
+		<div id="main_image">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cat_poster_1.jpg/1024px-Cat_poster_1.jpg" 
+			alt="main_image" width="100%"></img>
+		</div>
+	</div>
+	
+	<div id="content-second">
+		<div id="main_explain" style="border: 1px solid black">
+			<p>
+			고양이 (학명: Felis silvestris catus)는 식육목 고양이과에 속하는 포유류 동물이다.
+			일반적으로 "고양이"라 함은 인간에게 길들여진 집고양이를 말한다.
+			들고양이(wild cat)는 약 10만 년에서 7만 년 전부터 존재했다. 
+			2007년 기준으로 최근의 연구에 따르면 길들여진 고양이의 기원은 약 1만 년 전 근동지방에서 스스로 숲 속을 나와
+			사람들이 모여사는 마을에 대담하게 정착하여 길들여진 5마리 정도의 아프리카들고양이(학명: Felis lybica)로 추측된다.	
+			</p>
+		</div>
+		
+		<br/>
+		
+		<div id="audio">
+			<h3><img src="cat.png" width="20" hight="20"></img> <nbsp/>고양이의 울음소리 </h3>
+			<audio src="https://upload.wikimedia.org/wikipedia/commons/5/53/Felis_silvestris_catus_meows.ogg" 
+			autoplay controls></audio>
+		</div>
+	</div>
+	
+	
+	<div id="content-third">
+		<div id="species">
+		
+		<br/>
+			<h3><img src="cat.png" width="20" hight="20"></img> <nbsp/>고양이의 품종</h3>
+			<br/>
+			<ul>
+				<li><a href="https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B2%8C" title="서벌">서벌</a></li>
+				<li><a href="https://ko.wikipedia.org/wiki/%EC%8B%9C%EC%95%94%EA%B3%A0%EC%96%91%EC%9D%B4"  title="시암고양이">시암고양이</a></li>
+				<li><a href="https://ko.wikipedia.org/wiki/%ED%8E%98%EB%A5%B4%EC%8B%9C%EC%95%88" title="페르시안">페르시안</a></li>
+				<li><a href="https://ko.wikipedia.org/wiki/%EB%85%B8%EB%A5%B4%EC%9B%A8%EC%9D%B4%EC%A7%80%EC%96%B8_%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8" class="mw-redirect" title="노르웨이지언 포레스트">노르웨이지언 포레스트</a></li>
+				<li><a href="https://ko.wikipedia.org/wiki/%ED%84%B0%ED%82%A4%EC%8B%9C_%EC%95%99%EA%B3%A0%EB%9D%BC" title="터키시 앙고라">터키시 앙고라</a></li>
+				<li><a href="https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%A6%AC%ED%8B%B0%EC%8B%9C_%EC%87%BC%ED%8A%B8%ED%97%A4%EC%96%B4" title="브리티시 쇼트헤어">브리티시 쇼트헤어</a></li>
+				<li><a href="https://ko.wikipedia.org/wiki/%EB%9F%AC%EC%8B%9C%EC%95%88%EB%B8%94%EB%A3%A8"  title="러시안블루">러시안블루</a></li>
+				<li><a href="https://ko.wikipedia.org/wiki/%EB%9E%99%EB%8F%8C"  title="랙돌">랙돌</a></li>
+				<li><a href="https://ko.wikipedia.org/wiki/%EC%8A%A4%EC%BD%94%ED%8B%B0%EC%8B%9C_%ED%8F%B4%EB%93%9C" title="스코티시 폴드">스코티시 폴드</a></li>
+				<li><a href="https://ko.wikipedia.org/wiki/%EC%8B%9C%EB%B2%A0%EB%A6%AC%EC%95%88_%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8" title="시베리안 포레스트">시베리안 포레스트</a></li>
+				<li><a href="https://ko.wikipedia.org/wiki/%EC%95%84%EB%B9%84%EC%8B%9C%EB%8B%88%EC%95%88" title="아비시니안">아비시니안</a></li>
+				<li><a href="https://ko.wikipedia.org/wiki/%EC%BD%94%EB%A6%AC%EC%95%88_%EC%87%BC%ED%8A%B8%ED%97%A4%EC%96%B4" title="코리안 쇼트헤어">코리안 쇼트헤어</a></li>
+				<li><a href="https://ko.wikipedia.org/wiki/%EB%B2%94%EB%AC%B4%EB%8A%AC_%EA%B3%A0%EC%96%91%EC%9D%B4" title="범무늬 고양이">범무늬 고양이</a></li>
+				<li><a href="https://ko.wikipedia.org/wiki/%EC%96%BC%EB%A3%A9_%EA%B3%A0%EC%96%91%EC%9D%B4" title="얼룩 고양이">얼룩 고양이</a></li>
+				<li><a href="https://ko.wikipedia.org/wiki/%EC%82%BC%EC%83%89%ED%84%B8_%EA%B3%A0%EC%96%91%EC%9D%B4" title="삼색털 고양이">삼색털 고양이</a></li>
+				<li><a href="https://ko.wikipedia.org/wiki/%EA%B2%80%EC%9D%80_%EA%B3%A0%EC%96%91%EC%9D%B4" title="검은 고양이">검은 고양이</a></li>
+			</ul>
+			<a class="more" href="https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%96%91%EC%9D%B4#%EA%B3%A0%EC%96%91%EC%9D%B4%EC%9D%98_%ED%92%88%EC%A2%85" target="_blank">더 많은 정보를 보려면 클릭하세요</a>
+		</div>
+		
+		<br/>
+		<br/>
+		
+		<div id="growth">
+			<h3><img src="cat.png" width="20" hight="20"></img> <nbsp/>고양이의 성장과정</h3>
+			<table border="1">
+				<tr>
+					<td style="width: 10%">시기</td>
+					<td class="pic">생김새</td>
+					<td>특징</td>
+				</tr>
+				<tr>
+					<th>출생~2주</th>
+					<th class="pic"><img src="https://mblogthumb-phinf.pstatic.net/20130619_109/thankufood_1371640004401Xv81V_JPEG/d.jpg?type=w2" alt="week4" width="200" height="220"></img></th>
+					<th>갓 태어난 새끼고양이는 보이지도 들리지도 않고, 오직 후각만 발달해있다.
+					이때의 몸무게는 약 110g정도이다. 출생 후 2주부터 눈을 뜨고 청각이 발달한다. 
+					이 시기가 고양이의 사회화에 중요한 시기이다.</th>
+				</tr>
+				<tr>
+					<th>3~4주</th>
+					<th class="pic"><img src="https://mblogthumb-phinf.pstatic.net/20130619_97/thankufood_1371640682088Xkpxk_JPEG/1361426097127.jpg?type=w2" alt="1month" width="200" height="140"></th>
+					<th>어미의 교육 아래 다양한 경험을 하고 배우는 시기이다. 4주 이후가 되면 자유롭게 뛰어다닐 수 있으며 배변훈련과 그루밍을 시작한다.</th>
+				</tr>
+				<tr>
+					<th>2개월</th>
+					<th class="pic"><img src="https://mblogthumb-phinf.pstatic.net/20130619_230/thankufood_13716476341531eidN_JPEG/%B0%ED%BE%E7%C0%CC.jpg?type=w2" alt="2month" width="200" height="180"></th>
+					<th>8~10주차가 되면 어미의 곁을 떠날 수 있는 시기이다. 유치가 완전히 자리잡아 이유식이나 사료를 먹을 수 있으며, 수컷들이 암컷보다 몸무게가 늘기 시작한다.</th>
+				</tr>
+				<tr>
+					<th>3~5개월</th>
+					<th class="pic"><img src="https://mblogthumb-phinf.pstatic.net/20130619_88/thankufood_1371648468227IQ0fh_JPEG/%BF%B9%BB%DB%B0%ED%BE%E7%C0%CC.jpg?type=w2" alt="3~5month" width="200" height="150"></th>
+					<th>12주 이후부터 눈색깔의 변화와 이갈이가 시작되는 신체변화의 시기이다. 매우 활발하며 호기심과 장난기가 가득하다.</th>
+				</tr>
+				<tr>
+					<th>6~8개월</th>
+					<th class="pic"><img src="https://mblogthumb-phinf.pstatic.net/20130620_94/thankufood_1371716143238RAm1d_JPEG/%BF%EC%BE%C6%C7%D1%B0%ED%BE%E7%C0%CC.jpg?type=w2" alt="3~5month" width="200" height="240"></th>
+					<th>고양이마다 발육의 차이는 있지만 수컷은 4개월부터, 암컷은 7개월 이후부터 중성화수술이 가능하다. 6개월이면 젖니가 빠지고 영구치가 나는 시기이다. 성장이 완료되면서 눈에 띄는 성장이 나타나지 않는다.</th>
+				</tr>
+				<tr>
+					<th>1년</th>
+					<th class="pic"><img src="https://mblogthumb-phinf.pstatic.net/20130620_228/thankufood_1371717651331le7GE_JPEG/%C4%A1%C1%EE%B3%C9.jpg?type=w2" alt="3~5month" width="200" height="265"></th>
+					<th>몸이 다 자라고 성적으로 완벽히 성숙해진 성묘가 된다. 중성화수술을 하지 않은 암컷은 1년에 3~4번 발정기가 오며, 임신이 가능하다. 수컷은 14개월이 되면 성적으로 성숙해진다.</th>
+				</tr>
+				<tr>
+					<th>6세~13세</th>
+					<th class="pic"><img src="http://mblogthumb1.phinf.naver.net/MjAxNzA2MTFfMzQg/MDAxNDk3MTg0NTg5MDY5.Xlh_SsZoWgNN1C_WWYovgKO3SKTdKjONxdaJBHLbRaEg.0wIhgBU4j71OnhPzUZ9GBcg0Yv7CCFVJ8s6IREOwuBsg.PNG.vetline/%EB%85%B8%EB%A0%B9%EB%AC%98_%EA%B1%B4%EA%B0%95%EA%B4%80%EB%A6%AC.PNG?type=w800" alt="3~5month" width="200" height="140"></th>
+					<th>노년기에 접어드는 시기로, 병에 걸리는 일도 많아지고 운동량도 줄어들게 된다.</th>
+				</tr>
+				<caption style="text-align: right">출처: 네이버 블로그 <a href="https://m.blog.naver.com/PostView.nhn?blogId=thankufood&logNo=110170502572&proxyReferer=https%3A%2F%2Fwww.google.com%2F">구바스</a></caption>
+			</table>
+		</div>
+		
+		<br/>
+		<br/>
+		
+		<div id="picture">
+			<h3><img src="cat.png" width="20" hight="20"></img> <nbsp/>귀여운 고양이의 사진</h3>
+			<br/>
+			<a href="https://post-phinf.pstatic.net/MjAxNzA5MjVfMTY4/MDAxNTA2Mjk5NDg5NDM4.nILv9O2nGuV3eadCaFXlp8Y9_Gwc3iXzhuLjul0kSNEg.YfL5_PKZDubMRx0Z9GvnpoxlUOrXdvUEJpJdZ5TmmO4g.JPEG/1-2.JPG?type=w1200">
+				<img src="https://post-phinf.pstatic.net/MjAxNzA5MjVfMTY4/MDAxNTA2Mjk5NDg5NDM4.nILv9O2nGuV3eadCaFXlp8Y9_Gwc3iXzhuLjul0kSNEg.YfL5_PKZDubMRx0Z9GvnpoxlUOrXdvUEJpJdZ5TmmO4g.JPEG/1-2.JPG?type=w1200" alt="cat" width="640" hight="420"></img>
+			</a>
+			<a href="https://post-phinf.pstatic.net/MjAxNzA5MjVfMTkg/MDAxNTA2Mjk5NDMwMDg1.ObEL8LuP2y8ZFuNCzk3x47dmClHoWHR5HIzfQW1uATcg.YOBPW777OlTdDL_VuMFqWQGhs_-vLu-FQcPaxN9lwNAg.JPEG/1-1.JPG?type=w1200">
+				<img src="https://post-phinf.pstatic.net/MjAxNzA5MjVfMTkg/MDAxNTA2Mjk5NDMwMDg1.ObEL8LuP2y8ZFuNCzk3x47dmClHoWHR5HIzfQW1uATcg.YOBPW777OlTdDL_VuMFqWQGhs_-vLu-FQcPaxN9lwNAg.JPEG/1-1.JPG?type=w1200" alt="cat" width="640" hight="420"></img>
+			</a>
+			
+			<br/>
+			<br/>
+			
+			<a class="more" href="https://m.post.naver.com/viewer/postView.nhn?volumeNo=9758280&memberNo=38419283" target="_blank">
+			더 많은 사진을 보려면 클릭하세요</a>
+		</div>
+		
+		<br/>
+		<br/>
+		
+		<div id="video">
+			<h3><img src="cat.png" width="20" hight="20"></img> <nbsp/>고양이의 엉뚱한 매력</h3>
+			<br/>
+			<iframe width="640" height="360" src="https://www.youtube.com/embed/YvcG4IPtAAg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<br/><br/>
+			<iframe width="640" height="360" src="https://www.youtube.com/embed/vf962nrloXA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<br/>
+			<br/>
+			<a class="more" href="https://www.youtube.com/results?search_query=%EA%B7%80%EC%97%AC%EC%9A%B4+%EA%B3%A0%EC%96%91%EC%9D%B4" target="_blank">더 귀여운 영상 보기</a>
+		</div>
+	</div>
+
+	<br/>
+	<br/>
+	
+	<div id="footer">
+		<hr/>
+		<br/>
+		<a id="feedback" href="review.html">제 웹페이지를 평가해주세요!</a>
+		
+		<br/><br/>
+		<hr/>
+		
+		<div id="reference">
+			<h4>출처</h4>
+			<p>위키백과 <a href="https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%96%91%EC%9D%B4">고양이</a></p>
+			<p>네이버 블로그 <a href="https://m.post.naver.com/viewer/postView.nhn?volumeNo=9758280&memberNo=38419283">동그람이</a></p>
+		</div>
+	</div>
+	
+	<div id="to_top">
+		<a id="link_to_top" href="#top">go to top</a>
+	</div>
+</body>
+</html>
